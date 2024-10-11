@@ -61,7 +61,6 @@ figure img {
     border-radius: 50%;
     width: 25%;
     margin-top: 48px;
-    margin-bottom: 10px;
 }
 
 li {
@@ -76,7 +75,9 @@ li {
 
 .item {
     display: flex;
+    align-items: center;
     gap: 5px;
+    width: fit-content;
 }
 
 ul {
@@ -86,8 +87,20 @@ ul {
 }
 
 
-#selecionado {
+.selecionado {
     color: var(--c04);
+}
+
+.nav-seleciona {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.nav-seleciona:hover {
+    color: var(--c04);
+    transition: 0.3s;
 }
 
 .bx {
@@ -106,13 +119,13 @@ ul {
 }
 
 nav {
-    margin-top: 79px;
+    margin-top: 19%;
     margin-left: 32px;
 }
 
 #second-hr {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #second-nav {
